@@ -561,7 +561,7 @@
                  <property name="geometry">
                   <rect>
                    <x>0</x>
-                   <y>-588</y>
+                   <y>0</y>
                    <width>1200</width>
                    <height>1200</height>
                   </rect>
@@ -1301,7 +1301,7 @@
                      <property name="geometry">
                       <rect>
                        <x>0</x>
-                       <y>-236</y>
+                       <y>0</y>
                        <width>1200</width>
                        <height>1200</height>
                       </rect>
@@ -1666,7 +1666,7 @@
                      <property name="geometry">
                       <rect>
                        <x>0</x>
-                       <y>-493</y>
+                       <y>0</y>
                        <width>1200</width>
                        <height>1200</height>
                       </rect>
@@ -2118,8 +2118,8 @@
                      <property name="geometry">
                       <rect>
                        <x>0</x>
-                       <y>-537</y>
-                       <width>524</width>
+                       <y>0</y>
+                       <width>350</width>
                        <height>1200</height>
                       </rect>
                      </property>
@@ -2445,8 +2445,8 @@
                      <property name="geometry">
                       <rect>
                        <x>0</x>
-                       <y>-537</y>
-                       <width>524</width>
+                       <y>0</y>
+                       <width>349</width>
                        <height>1200</height>
                       </rect>
                      </property>
@@ -2759,24 +2759,77 @@
                 <widget class="QWidget" name="rpc_3">
                  <layout class="QGridLayout" name="gridLayout_10">
                   <item row="0" column="0">
-                   <widget class="QCheckBox" name="checkBox_2">
-                    <property name="text">
-                     <string>CheckBox</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="1" column="0">
-                   <widget class="QPushButton" name="pushButton_29">
-                    <property name="text">
-                     <string>PushButton</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="2" column="0">
-                   <widget class="QPushButton" name="pushButton_30">
-                    <property name="text">
-                     <string>PushButton</string>
-                    </property>
+                   <widget class="QTableWidget" name="tableWidget">
+                    <row>
+                     <property name="text">
+                      <string>1</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>2</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>3</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>4</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>5</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>6</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>7</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>8</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>9</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>10</string>
+                     </property>
+                    </row>
+                    <column>
+                     <property name="text">
+                      <string>Nom du residu</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Nom Operateur</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Quantite moulee</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Quantite moulee</string>
+                     </property>
+                    </column>
                    </widget>
                   </item>
                  </layout>
@@ -2784,10 +2837,77 @@
                 <widget class="QWidget" name="rpc_4_1">
                  <layout class="QGridLayout" name="gridLayout_11">
                   <item row="0" column="0">
-                   <widget class="QDialogButtonBox" name="buttonBox">
-                    <property name="standardButtons">
-                     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
-                    </property>
+                   <widget class="QTableWidget" name="tableWidget_2">
+                    <row>
+                     <property name="text">
+                      <string>1</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>2</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>3</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>4</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>5</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>6</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>7</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>8</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>9</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>10</string>
+                     </property>
+                    </row>
+                    <column>
+                     <property name="text">
+                      <string>Nom du residu</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Nom operateur</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Quantite moulee</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Quantite moulee</string>
+                     </property>
+                    </column>
                    </widget>
                   </item>
                  </layout>
@@ -2795,10 +2915,77 @@
                 <widget class="QWidget" name="rpc_4_2">
                  <layout class="QGridLayout" name="gridLayout_12">
                   <item row="0" column="0">
-                   <widget class="QPushButton" name="pushButton_31">
-                    <property name="text">
-                     <string>PushButton</string>
-                    </property>
+                   <widget class="QTableWidget" name="tableWidget_3">
+                    <row>
+                     <property name="text">
+                      <string>1</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>2</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>3</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>4</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>5</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>6</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>7</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>8</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>9</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>10</string>
+                     </property>
+                    </row>
+                    <column>
+                     <property name="text">
+                      <string>Nom du residu</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Nom operateur</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>New Column</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Quantite moulee</string>
+                     </property>
+                    </column>
                    </widget>
                   </item>
                  </layout>
@@ -2806,42 +2993,150 @@
                 <widget class="QWidget" name="rpc_4_3">
                  <layout class="QHBoxLayout" name="horizontalLayout_2">
                   <item>
-                   <widget class="QPushButton" name="pushButton_33">
-                    <property name="text">
-                     <string>PushButton</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QPushButton" name="pushButton_32">
-                    <property name="text">
-                     <string>PushButton</string>
-                    </property>
+                   <widget class="QTableWidget" name="tableWidget_4">
+                    <row>
+                     <property name="text">
+                      <string>1</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>2</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>3</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>4</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>5</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>6</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>7</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>8</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>10</string>
+                     </property>
+                    </row>
+                    <column>
+                     <property name="text">
+                      <string>Nom du residu</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Nom du operateur</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Quantite moulee</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Quantite moulee</string>
+                     </property>
+                    </column>
                    </widget>
                   </item>
                  </layout>
                 </widget>
                 <widget class="QWidget" name="rpc_4_4">
                  <layout class="QGridLayout" name="gridLayout_13">
-                  <item row="0" column="1">
-                   <widget class="QToolButton" name="toolButton_2">
-                    <property name="text">
-                     <string>...</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="1" column="0">
-                   <widget class="QPushButton" name="pushButton_34">
-                    <property name="text">
-                     <string>PushButton</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="1" column="1">
-                   <widget class="QRadioButton" name="radioButton">
-                    <property name="text">
-                     <string>RadioButton</string>
-                    </property>
+                  <item row="0" column="0">
+                   <widget class="QTableWidget" name="tableWidget_5">
+                    <row>
+                     <property name="text">
+                      <string>1</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>2</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>3</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>5</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>4</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>6</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>7</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>8</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>9</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>10</string>
+                     </property>
+                    </row>
+                    <column>
+                     <property name="text">
+                      <string>Nom du residu</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Nom operateur</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Quantite moulee</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Quantite moulee</string>
+                     </property>
+                    </column>
                    </widget>
                   </item>
                  </layout>
@@ -3262,7 +3557,7 @@
                      <property name="geometry">
                       <rect>
                        <x>0</x>
-                       <y>-556</y>
+                       <y>0</y>
                        <width>554</width>
                        <height>1200</height>
                       </rect>
@@ -3538,8 +3833,8 @@
                      <property name="geometry">
                       <rect>
                        <x>0</x>
-                       <y>-531</y>
-                       <width>554</width>
+                       <y>0</y>
+                       <width>350</width>
                        <height>1200</height>
                       </rect>
                      </property>
@@ -3861,31 +4156,77 @@
                 <widget class="QWidget" name="rpg_2_1">
                  <layout class="QGridLayout" name="gridLayout_19">
                   <item row="0" column="0">
-                   <widget class="QPushButton" name="pushButton_40">
-                    <property name="text">
-                     <string>PushButton</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="1" column="0">
-                   <widget class="QToolButton" name="toolButton_5">
-                    <property name="text">
-                     <string>...</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="2" column="1">
-                   <widget class="QToolButton" name="toolButton_6">
-                    <property name="text">
-                     <string>...</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="3" column="0" colspan="2">
-                   <widget class="QRadioButton" name="radioButton_4">
-                    <property name="text">
-                     <string>RadioButton</string>
-                    </property>
+                   <widget class="QTableWidget" name="tableWidget_6">
+                    <row>
+                     <property name="text">
+                      <string>1</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>2</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>3</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>4</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>5</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>6</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>7</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>8</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>9</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>10</string>
+                     </property>
+                    </row>
+                    <column>
+                     <property name="text">
+                      <string>Nom du residu</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Nom operateur</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Quantite moulee</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Quantite moulee</string>
+                     </property>
+                    </column>
                    </widget>
                   </item>
                  </layout>
@@ -3893,17 +4234,77 @@
                 <widget class="QWidget" name="rpg_2_2">
                  <layout class="QGridLayout" name="gridLayout_18">
                   <item row="0" column="0">
-                   <widget class="QDialogButtonBox" name="buttonBox_2">
-                    <property name="standardButtons">
-                     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="1" column="0">
-                   <widget class="QDialogButtonBox" name="buttonBox_3">
-                    <property name="standardButtons">
-                     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
-                    </property>
+                   <widget class="QTableWidget" name="tableWidget_7">
+                    <row>
+                     <property name="text">
+                      <string>1</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>2</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>3</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>4</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>5</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>6</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>7</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>8</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>9</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>10</string>
+                     </property>
+                    </row>
+                    <column>
+                     <property name="text">
+                      <string>Nom du residu</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Nom operateur</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Quantite moulee</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Quantite moulee</string>
+                     </property>
+                    </column>
                    </widget>
                   </item>
                  </layout>
@@ -3911,17 +4312,77 @@
                 <widget class="QWidget" name="rpg_2_3">
                  <layout class="QVBoxLayout" name="verticalLayout_20">
                   <item>
-                   <widget class="QRadioButton" name="radioButton_2">
-                    <property name="text">
-                     <string>RadioButton</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <widget class="QRadioButton" name="radioButton_3">
-                    <property name="text">
-                     <string>RadioButton</string>
-                    </property>
+                   <widget class="QTableWidget" name="tableWidget_8">
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <column>
+                     <property name="text">
+                      <string>New Column</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>New Column</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>New Column</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>New Column</string>
+                     </property>
+                    </column>
                    </widget>
                   </item>
                  </layout>
@@ -3929,17 +4390,102 @@
                 <widget class="QWidget" name="rpg_2_4">
                  <layout class="QGridLayout" name="gridLayout_17">
                   <item row="0" column="0">
-                   <widget class="QCheckBox" name="checkBox_4">
-                    <property name="text">
-                     <string>CheckBox</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="1" column="1">
-                   <widget class="QCheckBox" name="checkBox_3">
-                    <property name="text">
-                     <string>CheckBox</string>
-                    </property>
+                   <widget class="QTableWidget" name="tableWidget_9">
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <column>
+                     <property name="text">
+                      <string>New Column</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>New Column</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>New Column</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>New Column</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>New Column</string>
+                     </property>
+                    </column>
                    </widget>
                   </item>
                  </layout>
@@ -3947,17 +4493,77 @@
                 <widget class="QWidget" name="rpg_2_5">
                  <layout class="QGridLayout" name="gridLayout_16">
                   <item row="0" column="0">
-                   <widget class="QPushButton" name="pushButton_39">
-                    <property name="text">
-                     <string>PushButton</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="1" column="0">
-                   <widget class="QToolButton" name="toolButton_4">
-                    <property name="text">
-                     <string>...</string>
-                    </property>
+                   <widget class="QTableWidget" name="tableWidget_10">
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <row>
+                     <property name="text">
+                      <string>New Row</string>
+                     </property>
+                    </row>
+                    <column>
+                     <property name="text">
+                      <string>New Column</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>New Column</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>New Column</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>New Column</string>
+                     </property>
+                    </column>
                    </widget>
                   </item>
                  </layout>
@@ -3988,14 +4594,108 @@
          </widget>
          <widget class="QWidget" name="results_page">
           <layout class="QVBoxLayout" name="verticalLayout_10">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
            <item>
             <widget class="QWidget" name="result_page_in" native="true">
              <layout class="QVBoxLayout" name="verticalLayout_9">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
               <item>
-               <widget class="QLabel" name="label_7">
-                <property name="text">
-                 <string>Results Page</string>
-                </property>
+               <widget class="QTableWidget" name="tableWidget_11">
+                <row>
+                 <property name="text">
+                  <string>1</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>2</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>3</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>4</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>5</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>6</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>7</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>8</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>9</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>1</string>
+                 </property>
+                </row>
+                <column>
+                 <property name="text">
+                  <string>Nom du residu</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Nom operateur</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Quantite moulee</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Quantite moulee</string>
+                 </property>
+                </column>
                </widget>
               </item>
              </layout>
